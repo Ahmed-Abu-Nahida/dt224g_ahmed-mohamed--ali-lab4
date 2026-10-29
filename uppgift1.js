@@ -5,3 +5,5 @@ let surname = "Mohamed";
 console.log(firstname + " " + surname);
 let age = 32;
 console.log(age);
+let isStudent = true;
+console.log(isStudent);
