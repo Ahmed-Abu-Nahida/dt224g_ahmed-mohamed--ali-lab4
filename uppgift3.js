@@ -3,7 +3,7 @@
 let age1 = 12;
 
 if (age1 < 18) {
-  console.log("Barn");
+  console.log("Barn"); /* villkoret är sant */
 } else if (age1 >= 18 && age1 <= 64) {
   console.log("Vuxen");
 } else {
@@ -15,7 +15,7 @@ let age2 = 27;
 if (age2 < 18) {
   console.log("Barn");
 } else if (age2 >= 18 && age2 <= 64) {
-  console.log("Vuxen");
+  console.log("Vuxen"); /* villkoret är sant */
 } else {
   console.log("Pensionär");
 }
@@ -27,5 +27,5 @@ if (age3 < 18) {
 } else if (age3 >= 18 && age3 <= 64) {
   console.log("Vuxen");
 } else {
-  console.log("Pensionär");
+  console.log("Pensionär"); /* villkoret är sant */
 }
