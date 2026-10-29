@@ -3,6 +3,7 @@
 
 /* Array med fem maträtter */
 let maträtter = ["Kycklinggryta", "Ris", " Lassange", "Pannkaka", "Pizza"];
+maträtter.push("Fiskborgare"); /* lägga till en ny maträtt sista i listan */
 console.table(maträtter); /* skriv ut hela arrayen*/
 console.table(maträtter[0]); /* skriver ut första maträtten*/
 console.table(maträtter[4]); /* skriver ut första maträtten*/
