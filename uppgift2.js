@@ -7,6 +7,7 @@ let antal = 3;
 console.log("Antal: " + antal);
 
 let totalt = pris * antal;
-console.log("Totalt: " + totalt + "kr")
+console.log("Totalt: " + totalt + " kr");
 
 let totalt_Moms = totalt * 1.25;
+console.log("Totalt inklusive moms: " + totalt_Moms + " kr");
