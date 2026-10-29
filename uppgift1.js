@@ -7,3 +7,4 @@ let age = 32;
 console.log(age);
 let isStudent = true;
 console.log(isStudent);
+/* Här uppfylls kraven på variabler och datatyper. */
