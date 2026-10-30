@@ -1,10 +1,10 @@
 "use strict";
-/* Lösning till uppgift 5 av Ahmed Mohamed Ali, 2026 */
+// Lösning till uppgift 5 av Ahmed Mohamed Ali, 2026.
 
-/* Array med fem maträtter */
+// Array med fem maträtter.
 let maträtter = ["Kycklinggryta", "Ris", " Lassange", "Pannkaka", "Pizza"];
-maträtter.push("Fiskborgare"); /* lägga till en ny maträtt sista i listan */
+maträtter.push("Fiskborgare"); // lägga till en ny maträtt sista i listan.
 maträtter.shift();
-console.table(maträtter); /* skriv ut hela arrayen*/
-console.table(maträtter[0]); /* skriver ut första maträtten*/
-console.table(maträtter[4]); /* skriver ut första maträtten*/
+console.table(maträtter); // skriv ut hela arrayen.
+console.table(maträtter[0]); // skriver ut första maträtten.
+console.table(maträtter[4]); // skriver ut första maträtten.
