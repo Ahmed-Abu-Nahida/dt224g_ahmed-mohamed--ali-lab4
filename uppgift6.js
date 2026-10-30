@@ -2,5 +2,6 @@
 /* Lösning till uppgift 6 av Ahmed Mohamed Ali, 2026 */
 
 function calculateArea(bredd, höjd) {
-    return bredd * höjd;
+  return bredd * höjd;
 }
+console.log("Arean är " + calculateArea(2, 10));
