@@ -1,9 +1,9 @@
 "use strict";
 // Lösning till uppgift 9 av Ahmed Mohamed Ali, 2026.
-let people = [
+let person = [
   {
     name: "Jenniefer",
-    age: 19,
+    age: 17,
     city: "Kalmar",
   },
 
@@ -15,15 +15,19 @@ let people = [
 
   {
     name: "Abod",
-    age: 28,
+    age: 18,
     city: "Växjö",
   },
 ];
 
 function personInfo(person) {
-  if (person.age <= 18) {
-    console.log("Personen är inte mydig " + person.name);
+  if (person.age >= 18) {
+    console.log("Personen är Myndig " + person.name + " bor i " + person.city);
   } else {
-    console.log("Personen är myndig " + person.name);
+    console.log(
+      "Personen är inte myndig" + person.name + " bor i " + person.city);
   }
 }
+ for (let i = 0; i < person.length; i++) {
+   personInfo(person[i]);
+ }
